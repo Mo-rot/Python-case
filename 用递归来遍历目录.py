@@ -1,6 +1,8 @@
 import os
 
 
+# 对某个目录里的内容做处理，如果是目录就继续往里打开继续处理，如果是普通文件就对这个文件做读、写或执行处理等
+
 def getDir(path, sp = ""):
     # 得到当前目录下所有的文件
     filesList = os.listdir(path)
